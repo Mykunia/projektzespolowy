@@ -1832,11 +1832,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kamil\\Desktop\\ProjektZespolowy\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj",
+      "projectUniqueName": "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj",
       "projectName": "TeamProject.Client",
-      "projectPath": "C:\\Users\\kamil\\Desktop\\ProjektZespolowy\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj",
+      "projectPath": "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj",
       "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kamil\\Desktop\\ProjektZespolowy\\TeamProject\\TeamProject\\Client\\obj\\",
+      "outputPath": "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1853,8 +1853,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\kamil\\Desktop\\ProjektZespolowy\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj": {
-              "projectPath": "C:\\Users\\kamil\\Desktop\\ProjektZespolowy\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj"
+            "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj": {
+              "projectPath": "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj"
             }
           }
         }

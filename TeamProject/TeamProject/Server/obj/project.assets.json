@@ -1271,11 +1271,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kamil\\Desktop\\ProjektZespolowy\\TeamProject\\TeamProject\\Server\\TeamProject.Server.csproj",
+      "projectUniqueName": "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Server\\TeamProject.Server.csproj",
       "projectName": "TeamProject.Server",
-      "projectPath": "C:\\Users\\kamil\\Desktop\\ProjektZespolowy\\TeamProject\\TeamProject\\Server\\TeamProject.Server.csproj",
+      "projectPath": "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Server\\TeamProject.Server.csproj",
       "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kamil\\Desktop\\ProjektZespolowy\\TeamProject\\TeamProject\\Server\\obj\\",
+      "outputPath": "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1292,11 +1292,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\kamil\\Desktop\\ProjektZespolowy\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj": {
-              "projectPath": "C:\\Users\\kamil\\Desktop\\ProjektZespolowy\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj"
+            "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj": {
+              "projectPath": "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj"
             },
-            "C:\\Users\\kamil\\Desktop\\ProjektZespolowy\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj": {
-              "projectPath": "C:\\Users\\kamil\\Desktop\\ProjektZespolowy\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj"
+            "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj": {
+              "projectPath": "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GHmd/uUk4U39cThhfvOR8U9g9SjitC8qcR0LDZ0mQGZ4WUautYNc1eXDJLG0hTv0+B3ZPLptwDH6M+W3AtlrXg==",
+  "dgSpecHash": "oSzZ+PzCRhbXh9A80SQgkR4eUMn+AqpIR02qb1LTlAWkI9HvB25rZ+v22XnONXr8o/5Z1gbaY3x0L8RQluDFlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kamil\\Desktop\\ProjektZespolowy\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj",
+  "projectFilePath": "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kamil\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.5\\microsoft.aspnetcore.authorization.7.0.5.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.5\\microsoft.aspnetcore.components.7.0.5.nupkg.sha512",
