@@ -1266,19 +1266,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kamil\\.nuget\\packages\\": {}
+    "C:\\Users\\mateusz.lagiewka\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Server\\TeamProject.Server.csproj",
+      "projectUniqueName": "C:\\Users\\mateusz.lagiewka\\Source\\Repos\\projektzespolowy\\TeamProject\\TeamProject\\Server\\TeamProject.Server.csproj",
       "projectName": "TeamProject.Server",
-      "projectPath": "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Server\\TeamProject.Server.csproj",
-      "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Server\\obj\\",
+      "projectPath": "C:\\Users\\mateusz.lagiewka\\Source\\Repos\\projektzespolowy\\TeamProject\\TeamProject\\Server\\TeamProject.Server.csproj",
+      "packagesPath": "C:\\Users\\mateusz.lagiewka\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mateusz.lagiewka\\Source\\Repos\\projektzespolowy\\TeamProject\\TeamProject\\Server\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mateusz.lagiewka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1286,17 +1293,19 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files (x86)\\Progress\\Telerik UI for Blazor 4.3.0\\packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj": {
-              "projectPath": "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj"
+            "C:\\Users\\mateusz.lagiewka\\Source\\Repos\\projektzespolowy\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj": {
+              "projectPath": "C:\\Users\\mateusz.lagiewka\\Source\\Repos\\projektzespolowy\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj"
             },
-            "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj": {
-              "projectPath": "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj"
+            "C:\\Users\\mateusz.lagiewka\\Source\\Repos\\projektzespolowy\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj": {
+              "projectPath": "C:\\Users\\mateusz.lagiewka\\Source\\Repos\\projektzespolowy\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj"
             }
           }
         }
@@ -1335,7 +1344,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

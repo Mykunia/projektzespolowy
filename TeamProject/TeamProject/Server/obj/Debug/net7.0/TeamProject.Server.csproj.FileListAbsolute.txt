@@ -1,0 +1,8 @@
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Server\obj\Debug\net7.0\TeamProject.Server.csproj.AssemblyReference.cache
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Server\obj\Debug\net7.0\TeamProject.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Server\obj\Debug\net7.0\TeamProject.Server.AssemblyInfoInputs.cache
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Server\obj\Debug\net7.0\TeamProject.Server.AssemblyInfo.cs
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Server\obj\Debug\net7.0\TeamProject.Server.csproj.CoreCompileInputs.cache
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Server\obj\Debug\net7.0\TeamProject.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Server\obj\Debug\net7.0\TeamProject.Server.RazorAssemblyInfo.cache
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Server\obj\Debug\net7.0\TeamProject.Server.RazorAssemblyInfo.cs

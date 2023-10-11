@@ -1,0 +1,11 @@
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Shared\bin\Debug\net7.0\TeamProject.Shared.deps.json
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Shared\bin\Debug\net7.0\TeamProject.Shared.dll
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Shared\bin\Debug\net7.0\TeamProject.Shared.pdb
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Shared\obj\Debug\net7.0\TeamProject.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Shared\obj\Debug\net7.0\TeamProject.Shared.AssemblyInfoInputs.cache
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Shared\obj\Debug\net7.0\TeamProject.Shared.AssemblyInfo.cs
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Shared\obj\Debug\net7.0\TeamProject.Shared.csproj.CoreCompileInputs.cache
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Shared\obj\Debug\net7.0\TeamProject.Shared.dll
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Shared\obj\Debug\net7.0\refint\TeamProject.Shared.dll
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Shared\obj\Debug\net7.0\TeamProject.Shared.pdb
+C:\Users\mateusz.lagiewka\Source\Repos\projektzespolowy\TeamProject\TeamProject\Shared\obj\Debug\net7.0\ref\TeamProject.Shared.dll
