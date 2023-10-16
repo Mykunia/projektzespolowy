@@ -1,11 +1,25 @@
 using Microsoft.AspNetCore.ResponseCompression;
+using Microsoft.EntityFrameworkCore;
+using TeamProject.Server.Data;
+using TeamProject.Server.Services.AddressService;
+using TeamProject.Server.Services.AuthService;
+using TeamProject.Server.Services.CategoryService;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+//DbConntection
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+
+//DI for services
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IAddressService, AddressService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 var app = builder.Build();
 
