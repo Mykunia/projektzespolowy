@@ -4,6 +4,7 @@ using TeamProject.Server.Data;
 using TeamProject.Server.Services.AddressService;
 using TeamProject.Server.Services.AuthService;
 using TeamProject.Server.Services.CategoryService;
+using TeamProject.Server.Services.ProductTypeService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +21,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IAddressService, AddressService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<IProductTypeService, ProductTypeService>();
 
 var app = builder.Build();
 
