@@ -1,0 +1,22 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/TeamProject/v17
+/TeamProject/.vs/TeamProject/FileContentIndex
+/TeamProject/TeamProject/Server/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+/TeamProject/TeamProject/Server/obj/Debug/net7.0/TeamProject.Server.assets.cache
+/TeamProject/TeamProject/Server/obj/Debug/net7.0/TeamProject.Server.csproj.AssemblyReference.cache
+/TeamProject/TeamProject/Server/obj/Debug/net7.0/TeamProject.Server.GeneratedMSBuildEditorConfig.editorconfig
+/TeamProject/TeamProject/Shared/obj/Debug/net7.0/TeamProject.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/TeamProject/TeamProject/Shared/obj/Debug/net7.0/TeamProject.Shared.csproj.AssemblyReference.cache
+/TeamProject/TeamProject/Shared/obj/Debug/net7.0/TeamProject.Shared.assets.cache
+/TeamProject/TeamProject/Shared/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+/TeamProject/TeamProject/Client/obj/Debug/net7.0/TeamProject.Client.GeneratedMSBuildEditorConfig.editorconfig
+/TeamProject/TeamProject/Client/obj/Debug/net7.0/TeamProject.Client.csproj.AssemblyReference.cache
+/TeamProject/TeamProject/Client/obj/Debug/net7.0/TeamProject.Client.assets.cache
+/TeamProject/TeamProject/Client/obj/Debug/net7.0/.NETCoreApp,Version=v7.0.AssemblyAttributes.cs
+/TeamProject/TeamProject/Client/obj/Debug/net7.0/TeamProject.Client.assets.cache
+/TeamProject/TeamProject/Client/obj/Debug/net7.0/TeamProject.Client.csproj.AssemblyReference.cache
+/TeamProject/TeamProject/Client/obj/Debug/net7.0/TeamProject.Client.GeneratedMSBuildEditorConfig.editorconfig
+/TeamProject/TeamProject/Shared/obj/Debug/net7.0/TeamProject.Shared.assets.cache
