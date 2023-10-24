@@ -3,7 +3,11 @@ using Microsoft.EntityFrameworkCore;
 using TeamProject.Server.Data;
 using TeamProject.Server.Services.AddressService;
 using TeamProject.Server.Services.AuthService;
+using TeamProject.Server.Services.CartService;
 using TeamProject.Server.Services.CategoryService;
+using TeamProject.Server.Services.OrderServices;
+using TeamProject.Server.Services.PaymentService;
+using TeamProject.Server.Services.ProductService;
 using TeamProject.Server.Services.ProductTypeService;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,13 +21,24 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 //DI for services
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IAddressService, AddressService>();
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IProductTypeService, ProductTypeService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<ICartService, CartService>();
+builder.Services.AddScoped<IPaymentService, PaymentService>();
+builder.Services.AddScoped<IProductService, ProductService>();  
+
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
+
+app.UseSwaggerUI();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -37,13 +52,13 @@ else
     app.UseHsts();
 }
 
+app.UseSwagger();
 app.UseHttpsRedirection();
 
 app.UseBlazorFrameworkFiles();
 app.UseStaticFiles();
 
 app.UseRouting();
-
 
 app.MapRazorPages();
 app.MapControllers();
