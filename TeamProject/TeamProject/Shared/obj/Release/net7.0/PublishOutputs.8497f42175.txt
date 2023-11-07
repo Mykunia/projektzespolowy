@@ -1,0 +1,3 @@
+C:\Users\kamil\Desktop\Img_inz\projektzespolowy-main\TeamProject\TeamProject\Shared\bin\Release\net7.0\publish\TeamProject.Shared.dll
+C:\Users\kamil\Desktop\Img_inz\projektzespolowy-main\TeamProject\TeamProject\Shared\bin\Release\net7.0\publish\TeamProject.Shared.deps.json
+C:\Users\kamil\Desktop\Img_inz\projektzespolowy-main\TeamProject\TeamProject\Shared\bin\Release\net7.0\publish\TeamProject.Shared.pdb
