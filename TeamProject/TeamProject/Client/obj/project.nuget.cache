@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oSzZ+PzCRhbXh9A80SQgkR4eUMn+AqpIR02qb1LTlAWkI9HvB25rZ+v22XnONXr8o/5Z1gbaY3x0L8RQluDFlA==",
+  "dgSpecHash": "s8BXI+7j67RhK4G2vZPzM0W54nMgETWuSICEjw3cb4HDVPObOVYVGugqZnG2opBV7fctKa/pw83l1f5XDUUtEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kamil\\Desktop\\S\\S7\\ProjektZespolowy\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj",
+  "projectFilePath": "C:\\Users\\kamil\\Desktop\\Img_inz\\projektzespolowy-main\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kamil\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.5\\microsoft.aspnetcore.authorization.7.0.5.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.5\\microsoft.aspnetcore.components.7.0.5.nupkg.sha512",
@@ -31,7 +31,7 @@
     "C:\\Users\\kamil\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\kamil\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.5\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.5.nupkg.sha512"
+    "C:\\Users\\kamil\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.12\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.12.nupkg.sha512"
   ],
   "logs": []
 }
