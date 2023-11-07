@@ -1,0 +1,11 @@
+C:\Users\kamil\Desktop\Img_inz\projektzespolowy-main\TeamProject\TeamProject\Shared\bin\Release\net7.0\TeamProject.Shared.deps.json
+C:\Users\kamil\Desktop\Img_inz\projektzespolowy-main\TeamProject\TeamProject\Shared\bin\Release\net7.0\TeamProject.Shared.dll
+C:\Users\kamil\Desktop\Img_inz\projektzespolowy-main\TeamProject\TeamProject\Shared\bin\Release\net7.0\TeamProject.Shared.pdb
+C:\Users\kamil\Desktop\Img_inz\projektzespolowy-main\TeamProject\TeamProject\Shared\obj\Release\net7.0\TeamProject.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kamil\Desktop\Img_inz\projektzespolowy-main\TeamProject\TeamProject\Shared\obj\Release\net7.0\TeamProject.Shared.AssemblyInfoInputs.cache
+C:\Users\kamil\Desktop\Img_inz\projektzespolowy-main\TeamProject\TeamProject\Shared\obj\Release\net7.0\TeamProject.Shared.AssemblyInfo.cs
+C:\Users\kamil\Desktop\Img_inz\projektzespolowy-main\TeamProject\TeamProject\Shared\obj\Release\net7.0\TeamProject.Shared.csproj.CoreCompileInputs.cache
+C:\Users\kamil\Desktop\Img_inz\projektzespolowy-main\TeamProject\TeamProject\Shared\obj\Release\net7.0\TeamProject.Shared.dll
+C:\Users\kamil\Desktop\Img_inz\projektzespolowy-main\TeamProject\TeamProject\Shared\obj\Release\net7.0\refint\TeamProject.Shared.dll
+C:\Users\kamil\Desktop\Img_inz\projektzespolowy-main\TeamProject\TeamProject\Shared\obj\Release\net7.0\TeamProject.Shared.pdb
+C:\Users\kamil\Desktop\Img_inz\projektzespolowy-main\TeamProject\TeamProject\Shared\obj\Release\net7.0\ref\TeamProject.Shared.dll
