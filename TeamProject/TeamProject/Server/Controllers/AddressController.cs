@@ -24,7 +24,7 @@ namespace TeamProject.Server.Controllers
             return await _addressService.GetAddress();
         }
 
-        [HttpGet]
+        [HttpPost]
         public async Task<ActionResult<ServiceResponse<Address>>> AddOrUpdateAddress(Address address)
         {
             return await _addressService.AddOrUpdateAddress(address: address);

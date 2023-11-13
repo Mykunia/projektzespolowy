@@ -1,5 +1,25 @@
-﻿<h3>ShopLayout</h3>
+﻿@using MudBlazor
+@inherits LayoutComponentBase
 
-@code {
+<div class="page">
+    <main>
+        <div class="top-row px-2">
+            <HomeButton />
+            <Search />
+            <UserButton />
+            <CartCounter />
+        </div>
 
-}
+        <div class="nav-menu">
+            <ShopNavMenu />
+        </div>
+
+        <article class="content px-2">
+            @Body
+        </article>
+    </main>
+</div>
+
+<MudThemeProvider/>
+<MudDialogProvider/>
+<MudSnackbarProvider/>

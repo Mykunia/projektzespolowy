@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using MudBlazor.Services;
 using TeamProject.Client;
 using TeamProject.Client.Services.AddressService;
+using TeamProject.Client.Services.AuthService;
 using TeamProject.Client.Services.CartService;
 using TeamProject.Client.Services.CategoryService;
 using TeamProject.Client.Services.OrderService;
@@ -24,6 +25,7 @@ builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductTypeService, ProductTypeService>();
+builder.Services.AddScoped<IAuthService, AuthService>();
 
 builder.Services.AddOptions();
 builder.Services.AddAuthorizationCore();
