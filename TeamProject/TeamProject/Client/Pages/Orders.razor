@@ -1,5 +1,43 @@
-﻿<h3>Orders</h3>
+﻿@page "/orders"
+@using TeamProject.Client.Services.OrderService;
+@using TeamProject.Shared.Response;
+
+@inject IOrderService OrderService
+
+<h3>Orders</h3>
+
+@if (orders == null)
+{
+    <span>Loading your orders, please wait</span>
+}
+else if (orders.Count <= 0)
+{
+    <span>brak zamowien to zamow // tez zmienic</span>
+}
+else
+{
+    foreach (var order in orders)
+    {
+        <div class="container">
+            <div class="image-wrapper">
+                <img src="@order.ProductImageUrl" class="image" />
+            </div>
+            <div class="details">
+                <h4>@order.Product</h4>
+                <span>@order.OrderDate</span><br />
+                <a href="orders/@order.Id">Show more...</a>
+            </div>
+            <div class="order-price">$@order.TotalPrice</div>
+        </div>
+    }
+}
+
 
 @code {
+    List<OrderSummaryResponse> orders = null;
 
+    protected override async Task OnInitializedAsync()
+    {
+        orders = await OrderService.GetOrders();
+    }
 }
