@@ -5,7 +5,7 @@
 @inject NavigationManager NavigationManager
 @attribute [Authorize(Roles = "Admin")]
 
-<h3>Products</h3>
+<h3 class="m-2">Products</h3>
 
 @if (ProductService.SecuredProducts == null)
 {
@@ -13,7 +13,7 @@
 }
 else
 {
-    <button class="btn btn-primary float-end" @onclick="CreateProduct">
+    <button class="btn btn-primary float-end m-3" @onclick="CreateProduct">
         <i class="oi oi-plus"></i> Add new product
     </button>
     <table class="table">
@@ -60,7 +60,7 @@ else
                     <td>@(product.Visibility ? "✔️" : "")</td>
                     <td>
                         <button class="btn btn-primary" @onclick="(() => EditProduct(product.Id))">
-                            <i class="oi oi-pencil"></i>
+                            <img src="./pencil.png" class="edit-image" />
                         </button>
                     </td>
                 </tr>

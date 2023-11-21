@@ -6,7 +6,7 @@
 @implements IDisposable
 @attribute [Authorize(Roles = "Admin")]
 
-<h3>Product Types</h3>
+<h3 class="m-2">Product Types</h3>
 @foreach (var productType in ProductTypeService.ProductTypes)
 {
     @if (productType.Edit)
@@ -18,7 +18,7 @@
                 </div>
                 <div class="col">
                     <button type="submit" class="btn btn-primary">
-                        <i class="oi oi-cloud-upload"></i>
+                        <img src="./check.png" class="upload-image" />
                     </button>
                 </div>
             </div>
@@ -32,16 +32,16 @@
             </div>
             <div class="col">
                 <button class="btn btn-primary" @onclick="@(() => EditProductType(productType))">
-                    <i class="oi oi-pencil"></i>
+                    <img src="./pencil.png" class="edit-image" />
                 </button>
                 <button class="btn btn-danger" @onclick="@(() => DeleteProductType(productType.Id))">
-                    <i class="oi oi-trash"></i>
+                    <img src="./cancel.png" class="cancel-image" />
                 </button>
             </div>
         </div>
     }
 }
-<button class="btn btn-primary" @onclick="CreateNewProductType">
+<button class="btn btn-primary m-2" @onclick="CreateNewProductType">
     <i class="oi oi-plus"></i> Add new product type
 </button>
 

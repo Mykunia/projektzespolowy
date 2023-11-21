@@ -8,11 +8,11 @@
 
 <h3>Categories</h3>
 
-<div class="header">
-    <div class="col">Name</div>
-    <div class="col">Url</div>
-    <div class="col">Visible</div>
-    <div class="col"></div>
+<div class="row header-part">
+    <div class="col-3">Name</div>
+    <div class="col-3">Url</div>
+    <div class="col-3">Visible</div>
+    <div class="col-3"></div>
 </div>
 
 @foreach (var category in CategoryService.SecuredCategories)
@@ -21,21 +21,21 @@
     {
         <EditForm Model="editingCategory" OnSubmit="UpdateCategory">
             <div class="row">
-                <div class="col">
+                <div class="col-3">
                     <InputText @bind-Value="editingCategory.Name" class="form-control"></InputText>
                 </div>
-                <div class="col">
+                <div class="col-3">
                     <InputText @bind-Value="editingCategory.Url" class="form-control"></InputText>
                 </div>
-                <div class="col col-visible">
+                <div class="col-3 col-visible">
                     <InputCheckbox @bind-Value="editingCategory.Visibility"></InputCheckbox>
                 </div>
-                <div class="col">
-                    <button type="submit" class="btn btn-primary">
-                        <i class="oi oi-cloud-upload"></i>
+                <div class="col-3">
+                    <button type="submit" class="btn btn-primary change-btn">
+                        <img src="./check.png" class="upload-image" />
                     </button>
-                    <button class="btn btn-primary" @onclick="CancelEditing">
-                        <i class="oi oi-circle-x"></i>
+                    <button class="btn btn-primary change-btn" @onclick="CancelEditing">
+                        <img src="./cancel.png" class="cancel-image" />
                     </button>
                 </div>
             </div>
@@ -44,27 +44,27 @@
     else
     {
         <div class="row">
-            <div class="col">
+            <div class="col-3">
                 @category.Name
             </div>
-            <div class="col">
+            <div class="col-3">
                 @category.Url
             </div>
-            <div class="col col-visible">
+            <div class="col-3 col-visible">
                 <span>@(category.Visibility ? "✔️" : "")</span>
             </div>
-            <div class="col">
-                <button class="btn btn-primary" @onclick="(() => EditCategory(category))">
-                    <i class="oi oi-pencil"></i>
+            <div class="col-3">
+                <button class="btn btn-primary change-btn" @onclick="(() => EditCategory(category))">
+                    <img src="./pencil.png" class="edit-image" />
                 </button>
-                <button class="btn btn-primary" @onclick="(() => DeleteCategory(category.Id))">
-                    <i class="oi oi-trash"></i>
+                <button class="btn btn-primary change-btn" @onclick="(() => DeleteCategory(category.Id))">
+                    <img src="./trash.png" class="delete-image" />
                 </button>
             </div>
         </div>
     }
 }
-<button class="btn btn-primary" @onclick="CreateNewCategory">
+<button class="btn btn-primary category-btn" @onclick="CreateNewCategory">
     <i class="oi oi-plus"></i> Add new category
 </button>
 
