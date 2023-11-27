@@ -1,5 +1,47 @@
-﻿<h3>OrderDetails</h3>
+﻿@page "/orders/{orderId:int}"
+
+﻿@using TeamProject.Shared.Response
+@using TeamProject.Client.Services.OrderService
+@inject IOrderService OrderService
+
+
+@if (orderDetails == null)
+{
+    <p>Loading order details...</p>
+}
+else
+{
+    <h3>Order from @orderDetails.OrderDate</h3>
+
+    <div>
+        @foreach (var product in orderDetails.Products)
+        {
+            <div class="container">
+                <div class="image-wrapper">
+                    <img src="@product.PictureUrl" class="image" />
+                </div>
+                <div class="name">
+                    <h5><a href="/product/@product.ProductId">@product.Name</a></h5>
+                    <span>@product.ProductType</span><br />
+                    <span>Quantity: @product.Quantity</span>
+                </div>
+                <div class="product-price">$@product.TotalPrice</div>
+            </div>
+        }
+        <div class="product-price">
+            Total: $@orderDetails.TotalPrice
+        </div>
+    </div>
+}
 
 @code {
+    [Parameter]
+    public int OrderId { get; set; }
 
+    private OrderDetailsResponse orderDetails;
+
+    protected override async Task OnInitializedAsync()
+    {
+        orderDetails = await OrderService.GetOrderDetails(OrderId);
+    }
 }

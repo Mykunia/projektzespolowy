@@ -1,5 +1,75 @@
-﻿<h3>ProductList</h3>
+﻿@using TeamProject.Client.Services.ProductService;
+@using TeamProject.Shared.Models;
+@inject IProductService ProductService
+@implements IDisposable
+
+
+@if (ProductService.Products == null || ProductService.Products.Count == 0)
+{
+    <span>@ProductService.Message</span>
+}
+else
+{
+    <ul class="">
+        @foreach (var product in ProductService.Products)
+        {
+            <li class="">
+                <div class="">
+                    <a href="/product/@product.Id">
+                        @if (!string.IsNullOrEmpty(product.PictureUrl))
+                        {
+                            <img class="" src="@product.PictureUrl" alt="@product.Name" />
+                        }
+                        else if (product.Pictures.Count > 0)
+                        {
+                            <img class="" src="@product.Pictures[0].Data" alt="@product.Name" />
+                        }
+                    </a>
+                </div>
+                <div class="">
+                    <a href="/product/@product.Id">
+                        <h4 class="">@product.Name</h4>
+                    </a>
+                    <p>@product.Description</p>
+                    <h5 class="">
+                        @GetPriceText(product)
+                    </h5>
+                </div>
+            </li>
+        }
+    </ul>
+    for (var i = 1; i <= ProductService.PageCount; i++)
+    {
+        <a class="btn
+                 @(i == ProductService.CurrentPage ? "btn-info" : "btn-outline-info")
+                 page-selection"
+   href="/search/@ProductService.TextSearch/@i">@i</a>
+    }
+}
 
 @code {
+    protected override void OnInitialized()
+    {
+        ProductService.ProductsChanged += StateHasChanged;
+    }
 
+    public void Dispose()
+    {
+        ProductService.ProductsChanged -= StateHasChanged;
+    }
+
+    private string GetPriceText(Product product)
+    {
+        var variants = product.Variants;
+        if (variants.Count == 0)
+        {
+            return string.Empty;
+        }
+        else if (variants.Count == 1)
+        {
+            return $"${variants[0].Price}";
+        }
+        decimal minPrice = variants.Min(v => v.Price);
+        return $"Starting at ${minPrice}";
+    }
 }

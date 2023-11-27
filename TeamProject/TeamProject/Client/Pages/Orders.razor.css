@@ -1,2 +1,48 @@
-﻿body {
+﻿﻿.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
 }
+
+.image-wrapper {
+    flex: 0 0 100px;
+    margin-right: 20px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.details {
+    flex: 1;
+}
+
+.order-price {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4b0082;
+}
+
+h4 {
+    margin: 0;
+    color: #333;
+}
+
+span {
+    color: #666;
+}
+
+a {
+    color: #4b0082;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }

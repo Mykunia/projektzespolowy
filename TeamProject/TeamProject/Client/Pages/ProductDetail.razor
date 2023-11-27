@@ -1,5 +1,109 @@
-﻿<h3>ProductDetail</h3>
+﻿@page "/product/{id:int}"
 
-@code {
+@using MudBlazor
+@using TeamProject.Client.Services.CartService;
+@using TeamProject.Client.Services.ProductService;
+@using TeamProject.Shared.Models;
+@inject IProductService ProductService
+@inject ICartService CartService
 
+@if (product == null)
+{
+    <span>@message</span>
+}
+else
+{
+    <div class="">
+        <div class="">
+            @if (!string.IsNullOrEmpty(product.PictureUrl))
+            {
+                <img class="" src="@product.PictureUrl" alt="@product.Name" />
+            }
+            else
+            {
+                <MudCarousel Class="mud-width-full" ItemsSource="@product.Pictures">
+                    <ItemTemplate>
+                        <MudImage Src="@context.Data"></MudImage>>
+                    </ItemTemplate>
+                </MudCarousel>
+            }
+        </div>
+        <div class="">
+            <h2 class="">@product.Name</h2>
+            <p>@product.Description</p>
+            @if (product.Variants != null && product.Variants.Count > 1)
+            {
+                <div class="">
+                    <select class="" @bind="currentTypeId">
+                        @foreach (var variant in product.Variants)
+                        {
+                            <option value="@variant.ProductTypeId">@variant.ProductType.Name</option>
+                        }
+                    </select>
+                </div>
+            }
+            @if (GetSelectedVariant() != null)
+            {
+                @if (GetSelectedVariant().OriginalPrice > GetSelectedVariant().Price)
+                {
+                    <h6 class="">
+                        $@GetSelectedVariant().OriginalPrice
+                    </h6>
+                }
+                <h4 class="price">
+                    $@GetSelectedVariant().Price
+                </h4>
+            }
+            <button class="btn btn-primary" @onclick="AddToCart">
+                <i class="oi oi-cart"></i>&nbsp;&nbsp;&nbsp;Add to Cart
+            </button>
+        </div>
+    </div>
+
+}
+
+@code{
+    private Product? product = null;
+    private string message = string.Empty;
+    private int currentTypeId = 1;
+
+    [Parameter]
+    public int ProductId { get; set; }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        message = "Loading product, please wait";
+
+        var result = await ProductService.GetProduct(ProductId);
+        if (!result.Success)
+        {
+            message = result.Message;
+        }
+        else
+        {
+            product = result.Data;
+            if (product.Variants.Count > 0)
+            {
+                currentTypeId = product.Variants[0].ProductTypeId;
+            }
+        }
+    }
+
+    private ProductVariant GetSelectedVariant()
+    {
+        var variant = product.Variants.FirstOrDefault(v => v.ProductTypeId == currentTypeId);
+        return variant;
+    }
+
+    private async Task AddToCart()
+    {
+        var productVariant = GetSelectedVariant();
+        var cartItem = new CartItem
+            {
+                ProductId = productVariant.ProductId,
+                ProductTypeId = productVariant.ProductTypeId
+            };
+
+        await CartService.AddToCart(cartItem);
+    }
 }

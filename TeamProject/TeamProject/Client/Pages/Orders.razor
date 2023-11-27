@@ -1,8 +1,10 @@
 ﻿@page "/orders"
+
 @using TeamProject.Client.Services.OrderService;
 @using TeamProject.Shared.Response;
 
 @inject IOrderService OrderService
+
 
 <h3>Orders</h3>
 
@@ -12,11 +14,11 @@
 }
 else if (orders.Count <= 0)
 {
-    <span>brak zamowien to zamow // tez zmienic</span>
+    <span>No orders yet. Make a purchase!</span>
 }
 else
 {
-    foreach (var order in orders)
+    @foreach (var order in orders)
     {
         <div class="container">
             <div class="image-wrapper">
@@ -31,7 +33,6 @@ else
         </div>
     }
 }
-
 
 @code {
     List<OrderSummaryResponse> orders = null;

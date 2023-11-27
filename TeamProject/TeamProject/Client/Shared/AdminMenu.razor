@@ -1,5 +1,24 @@
-﻿<h3>AdminMenu</h3>
+﻿@inject AuthenticationStateProvider AuthStateProvider
+@using System.Security.Claims
+@using Microsoft.AspNetCore.Components.Authorization;
+
+@if (authorized)
+{
+    <a class="dropdown-item" href="admin/categories">Categories</a>
+    <a class="dropdown-item" href="admin/product-types">Product Types</a>
+    <a class="dropdown-item" href="admin/products">Products</a>
+}
 
 @code {
+    bool authorized = false;
 
+    protected override async Task OnInitializedAsync()
+    {
+        string role = (await AuthStateProvider.GetAuthenticationStateAsync())
+            .User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role).Value;
+        if (role.Contains("Admin"))
+        {
+            authorized = true;
+        }
+    }
 }
