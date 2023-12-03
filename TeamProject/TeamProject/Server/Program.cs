@@ -20,6 +20,18 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+////DbConntection
+//var server = Environment.GetEnvironmentVariable("DB_HOST");
+//var user = Environment.GetEnvironmentVariable("DB_USER");
+//var database = Environment.GetEnvironmentVariable("DB_NAME");
+//var password = Environment.GetEnvironmentVariable("DB_SA_PASSWORD");
+
+//// Create the connection string
+//var connectionString = $"Server={server};Database={database};User Id={user};Password={password};TrustServerCertificate=True;";
+
+//builder.Services.AddDbContext<ApplicationDbContext>(options =>
+//    options.UseSqlServer(connectionString));
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
@@ -80,6 +92,20 @@ app.UseAuthorization();
 
 app.MapRazorPages();
 app.MapControllers();
+
+using var scope = app.Services.CreateScope();
+var services = scope.ServiceProvider;
+try
+{
+    var context = services.GetRequiredService<ApplicationDbContext>();
+    await context.Database.MigrateAsync();
+}
+catch (Exception ex)
+{
+    var logger = services.GetService<ILogger<Program>>();
+    logger.LogError(ex, "An error occured during migration");
+}
+
 app.MapFallbackToFile("index.html");
 
 app.Run();

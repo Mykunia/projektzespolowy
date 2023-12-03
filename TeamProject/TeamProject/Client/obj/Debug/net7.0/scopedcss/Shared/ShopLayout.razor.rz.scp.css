@@ -1,0 +1,58 @@
+.page[b-1ycldrozk4] {
+    background-color: #f5f5f5;
+  }
+  
+  .top-row[b-1ycldrozk4] {
+    background-color: rgb(90, 40, 90);
+    color: #fff;
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav-menu[b-1ycldrozk4] {
+    background-color: #a853fc;
+    padding: 16px;
+  }
+  
+  .content[b-1ycldrozk4] {
+    background-color: #f5f5f5;
+    padding: 16px;
+  }
+  
+  .mud-toolbar-title[b-1ycldrozk4] {
+    color: #fff !important;
+  }
+  
+  .mud-button[b-1ycldrozk4] {
+    color: #fff !important;
+    background-color: #6c348a !important;
+  }
+  
+  .mud-button:hover[b-1ycldrozk4] {
+    background-color: #9457a6 !important;
+  }
+  
+  .mud-input[b-1ycldrozk4] {
+    background-color: #fff;
+    border-color: #e9e9e9;
+  }
+  
+  .mud-input:hover[b-1ycldrozk4] {
+    border-color: #a853fc;
+  }
+  
+  .mud-select[b-1ycldrozk4] {
+    background-color: #fff;
+    border-color: #e9e9e9;
+  }
+  
+  .mud-select:hover[b-1ycldrozk4] {
+    border-color: #a853fc;
+  }
+  
+  .mud-snackbar[b-1ycldrozk4] {
+    background-color: #a853fc;
+    color: #fff;
+  }

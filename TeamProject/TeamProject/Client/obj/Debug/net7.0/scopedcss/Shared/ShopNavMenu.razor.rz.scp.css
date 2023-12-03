@@ -1,0 +1,63 @@
+.navbar-toggler[b-4hwznzqeba] {
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-4hwznzqeba] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-4hwznzqeba] {
+    font-size: 1.1rem;
+}
+
+.oi[b-4hwznzqeba] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-4hwznzqeba] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+    .nav-item[b-4hwznzqeba]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-4hwznzqeba]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-4hwznzqeba]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+.flex-nav[b-4hwznzqeba] {
+    flex-direction: column;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-4hwznzqeba], .navbar-toggler-wrapper[b-4hwznzqeba] {
+        display: none;
+    }
+
+    .flex-nav[b-4hwznzqeba] {
+        flex-direction: row;
+        display: flex;
+    }
+
+    .collapse[b-4hwznzqeba] {
+        display: block;
+    }
+}

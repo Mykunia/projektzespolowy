@@ -2,7 +2,6 @@
 @inject IProductService ProductService
 @implements IDisposable
 
-<center><h2>Dodac cos jakie gorace offki czy cus</h2></center>
 @if (ProductService.Products == null || ProductService.Products.Count == 0)
 {
     <span>@ProductService.Message</span>

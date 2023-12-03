@@ -1,0 +1,19 @@
+h3[b-9v7c3t20wb] {
+    font-weight: bold;
+}
+
+span[b-9v7c3t20wb] {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+a[b-9v7c3t20wb] {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    a:hover[b-9v7c3t20wb] {
+        text-decoration: underline;
+    }
