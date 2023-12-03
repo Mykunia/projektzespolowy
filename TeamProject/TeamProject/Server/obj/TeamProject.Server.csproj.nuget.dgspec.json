@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Server\\TeamProject.Server.csproj": {}
+    "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Server\\TeamProject.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj": {
+    "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj",
+        "projectUniqueName": "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj",
         "projectName": "TeamProject.Client",
-        "projectPath": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj",
+        "projectPath": "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj",
         "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Client\\obj\\",
+        "outputPath": "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj": {
-                "projectPath": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj"
+              "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj": {
+                "projectPath": "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj"
               }
             }
           }
@@ -92,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -101,14 +101,14 @@
         }
       }
     },
-    "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Server\\TeamProject.Server.csproj": {
+    "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Server\\TeamProject.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Server\\TeamProject.Server.csproj",
+        "projectUniqueName": "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Server\\TeamProject.Server.csproj",
         "projectName": "TeamProject.Server",
-        "projectPath": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Server\\TeamProject.Server.csproj",
+        "projectPath": "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Server\\TeamProject.Server.csproj",
         "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Server\\obj\\",
+        "outputPath": "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -125,11 +125,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj": {
-                "projectPath": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj"
+              "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj": {
+                "projectPath": "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj"
               },
-              "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj": {
-                "projectPath": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj"
+              "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj": {
+                "projectPath": "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj"
               }
             }
           }
@@ -170,6 +170,10 @@
               "target": "Package",
               "version": "[7.0.12, )"
             },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.4, )"
+            },
             "Stripe.net": {
               "target": "Package",
               "version": "[43.0.0, )"
@@ -198,18 +202,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj": {
+    "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj",
         "projectName": "TeamProject.Shared",
-        "projectPath": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj",
+        "projectPath": "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj",
         "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowy2\\TeamProject\\TeamProject\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -253,7 +257,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
