@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿.container {
     display: flex;
     flex-wrap: wrap;
@@ -66,4 +67,37 @@
     background-color: #fff;
     color: #5C245C;
     border: 1px solid #5C245C;
+=======
+﻿.media-img {
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    transition: transform .2s;
+>>>>>>> ca28a83588a43eba95ed17532f235bb4b48de362
+}
+
+    .media-img:hover {
+        transform: scale(1.1);
+    }
+
+.media-img-wrapper {
+    width: 200px;
+    text-align: center;
+}
+
+.page-selection {
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 1023.98px) {
+    .media {
+        flex-direction: column;
+    }
+
+    .media-img-wrapper {
+        width: 100%;
+        height: auto;
+    }
 }
