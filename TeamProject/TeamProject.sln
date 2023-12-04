@@ -10,9 +10,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamProject.Shared", "TeamProject\Shared\TeamProject.Shared.csproj", "{38DC9215-2D87-43F8-A3A1-E5F89B59CDF1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementy rozwiązania", "Elementy rozwiązania", "{2D6B43DA-CC1D-4234-A245-C2B40B575EFF}"
-	ProjectSection(SolutionItems) = preProject
-		Dockerfile.txt = Dockerfile.txt
-	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{99F717B8-DCB6-46AE-A0B4-66D45C5F22A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +31,10 @@ Global
 		{38DC9215-2D87-43F8-A3A1-E5F89B59CDF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38DC9215-2D87-43F8-A3A1-E5F89B59CDF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38DC9215-2D87-43F8-A3A1-E5F89B59CDF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99F717B8-DCB6-46AE-A0B4-66D45C5F22A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F717B8-DCB6-46AE-A0B4-66D45C5F22A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F717B8-DCB6-46AE-A0B4-66D45C5F22A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F717B8-DCB6-46AE-A0B4-66D45C5F22A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

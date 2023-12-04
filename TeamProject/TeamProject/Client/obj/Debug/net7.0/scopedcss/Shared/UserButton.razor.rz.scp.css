@@ -1,0 +1,89 @@
+.dropdown[b-rqapskyxzh] {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu[b-rqapskyxzh] {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 10px 0px;
+}
+
+.dropdown-menu-right[b-rqapskyxzh] {
+    right: 0;
+}
+
+.show-menu[b-rqapskyxzh] {
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
+
+.user-image[b-rqapskyxzh] {
+    padding: 5px;
+    height: 3.5rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+    .user-image:hover[b-rqapskyxzh],
+    .user-image:active[b-rqapskyxzh] {
+        transform: scale(1.1);
+    }
+
+/* Menu item styles */
+.dropdown-item[b-rqapskyxzh] {
+    color: #5c245c;
+    padding: 5px 10px;
+    display: block;
+    text-decoration: none;
+    margin: 0px;
+    box-sizing: border-box;
+    transition: background-color 0.4s;
+}
+
+    .dropdown-item:hover[b-rqapskyxzh] {
+        background-color: #A6A9CD;
+        text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+.dropdown-item[b-rqapskyxzh] {
+    color: #5c245c;
+    text-align: center;
+    font-weight: bolder;
+}
+
+    .dropdown-item:hover[b-rqapskyxzh] {
+        background-color: #A6A9CD;
+        text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+        color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .dropdown-item[href="orders"][b-rqapskyxzh],
+    .dropdown-item[href="profile"][b-rqapskyxzh] {
+        color: #5c245c;
+        text-decoration: none;
+        margin: 5px 0px;
+        text-align: center;
+    }
+
+        .dropdown-item[href="orders"]:hover[b-rqapskyxzh],
+        .dropdown-item[href="profile"]:hover[b-rqapskyxzh] {
+            color: white;
+            text-decoration: none;
+            margin: 5px 0px;
+        }
+
+/* Small screens */
+@media (max-width: 575px) {
+    .dropdown-toggle[b-rqapskyxzh] {
+        font-size: 14px;
+    }
+
+    .dropdown-menu[b-rqapskyxzh] {
+        width: 100%;
+    }
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yuOFPnQvkG/loDhaU/JyYm4aQ7PJfaPCkX1CwCoNjKssPvW/4jl4ZNFt6VAYWYHpNZxr4TpZ0wAitlQShv7kRw==",
+  "dgSpecHash": "wYfaXBqezJ0UEt2FWGJ1eQlmxtCx9J88NxLcXq4a+4Pap7E/TWDe/7i0Yt7hCXFZn0wCJwxAAXuGKUGxc2NvIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kamil\\Desktop\\TP\\TeamProject\\TeamProject\\Server\\TeamProject.Server.csproj",
+  "projectFilePath": "C:\\Users\\kamil\\source\\repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Server\\TeamProject.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kamil\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

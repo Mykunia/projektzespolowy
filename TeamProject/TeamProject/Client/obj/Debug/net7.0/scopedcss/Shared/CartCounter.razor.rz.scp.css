@@ -1,0 +1,14 @@
+.cart-image[b-jorybj95pb] {
+    height: 2rem;
+}
+
+.btn-cart[b-jorybj95pb] {
+    margin-top: 10px;
+    right: 0px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn-cart:hover[b-jorybj95pb] {
+    background-color: #6C74A7;
+    transform: scale(1.1);
+}

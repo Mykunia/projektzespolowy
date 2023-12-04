@@ -1,2 +1,81 @@
-﻿body {
+﻿/* Styles for Shopping Cart Razor Page */
+
+h3 {
+    margin: 15px 0;
+    color: #5c245c;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.image-wrapper {
+    flex: 0 0 30%;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.name {
+    flex: 0 0 50%;
+    padding: 0 10px;
+}
+
+.input-quantity {
+    width: 50px;
+    margin-top: 5px;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cart-product-price {
+    flex: 0 0 20%;
+    text-align: right;
+}
+
+    .cart-product-price:last-child {
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+.float-end {
+    float: right;
+}
+
+.btn {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.alert-success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    align-content: end;
+    margin: 5px 0px;
+}
+
+/* Styles for Delivery Address */
+h5 {
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Additional styles can be added based on your design preferences */

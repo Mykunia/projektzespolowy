@@ -10,34 +10,34 @@
 }
 else
 {
-    <ul class="">
+    <div class="container">
+    <div class="product-tiles">
         @foreach (var product in ProductService.Products)
         {
-            <li class="">
-                <div class="">
+            <div class="product-tile">
+                <a href="/product/@product.Id">
+                    @if (!string.IsNullOrEmpty(product.PictureUrl))
+                    {
+                        <img class="product-image" src="@product.PictureUrl" alt="@product.Name" />
+                    }
+                    else if (product.Pictures.Count > 0)
+                    {
+                        <img class="product-image" src="@product.Pictures[0].Data" alt="@product.Name" />
+                    }
+                </a>
+                <div class="product-details">
                     <a href="/product/@product.Id">
-                        @if (!string.IsNullOrEmpty(product.PictureUrl))
-                        {
-                            <img class="" src="@product.PictureUrl" alt="@product.Name" />
-                        }
-                        else if (product.Pictures.Count > 0)
-                        {
-                            <img class="" src="@product.Pictures[0].Data" alt="@product.Name" />
-                        }
+                        <h4 class="product-name">@product.Name</h4>
                     </a>
-                </div>
-                <div class="">
-                    <a href="/product/@product.Id">
-                        <h4 class="">@product.Name</h4>
-                    </a>
-                    <p>@product.Description</p>
-                    <h5 class="">
+                    <p class="product-description">@product.Description</p>
+                    <h5 class="product-price">
                         @GetPriceText(product)
                     </h5>
                 </div>
-            </li>
+            </div>
         }
-    </ul>
+    </div>
+    </div>
     for (var i = 1; i <= ProductService.PageCount; i++)
     {
         <a class="btn

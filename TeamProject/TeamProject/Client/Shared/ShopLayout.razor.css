@@ -1,24 +1,29 @@
 ﻿.page {
     background-color: #f5f5f5;
   }
-  
-  .top-row {
-    background-color: rgb(90, 40, 90);
+
+.top-row {
+    background-color: #5C245C;
     color: #fff;
-    padding: 16px 0;
+    padding: 2px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side, .right-side {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-  }
-  
-  .nav-menu {
-    background-color: #a853fc;
-    padding: 16px;
-  }
+}
+
+.nav-menu {
+    background-color: #444655;
+    padding: 2px;
+}
   
   .content {
     background-color: #f5f5f5;
-    padding: 16px;
+    padding: 10px;
   }
   
   .mud-toolbar-title {

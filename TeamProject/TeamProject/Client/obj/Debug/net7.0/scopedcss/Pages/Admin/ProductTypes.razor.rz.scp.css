@@ -1,0 +1,79 @@
+h3[b-5jp1vu3jjv] {
+    color: #5c245c; /* Dark purple for heading */
+    padding-bottom: 2rem;
+}
+
+.btn-primary[b-5jp1vu3jjv] {
+    background-color: #6c74a7;
+    border-color: #6c74a7;
+    color: #fff;
+}
+
+    .btn-primary:hover[b-5jp1vu3jjv] {
+        background-color: #444655;
+        border-color: #444655;
+    }
+
+.product-type-btn[b-5jp1vu3jjv] {
+    margin-top: 10px;
+    right: 0px;
+    transition: transform 0.3s ease-in-out;
+}
+
+    .product-type-btn:hover[b-5jp1vu3jjv] {
+        transform: scale(1.1);
+    }
+
+.btn-primary[b-5jp1vu3jjv] {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.float-end[b-5jp1vu3jjv] {
+    float: right;
+}
+
+.btn-danger[b-5jp1vu3jjv] {
+    background-color: #a6a9cd; /* Light purple for danger button */
+    border-color: #a6a9cd;
+    color: #fff; /* White text */
+}
+
+    .btn-danger:hover[b-5jp1vu3jjv] {
+        background-color: #6c74a7; /* Darker purple on hover */
+        border-color: #6c74a7;
+    }
+
+.upload-image[b-5jp1vu3jjv],
+.edit-image[b-5jp1vu3jjv],
+.cancel-image[b-5jp1vu3jjv] {
+    height: 1rem;
+}
+
+.row[b-5jp1vu3jjv] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #a6a9cd; /* Light purple border */
+    background-color: #fff; /* White background */
+}
+
+    .row:last-child[b-5jp1vu3jjv] {
+        border-bottom: none; /* Remove bottom border for the last row */
+    }
+
+.col[b-5jp1vu3jjv] {
+    flex: 1;
+}
+
+.form-control[b-5jp1vu3jjv] {
+    width: 100%;
+    border: 1px solid #a6a9cd; /* Light purple border */
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.float-end[b-5jp1vu3jjv] {
+    float: right; /* Align button to the right */
+}

@@ -1,2 +1,14 @@
-﻿body {
+﻿.book-image {
+    padding: 5px;
+    height: 3.5rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.book-image:hover,
+.book-image:active {
+    transform: scale(1.1);
+}
+
+h3{
+    color: white;
 }

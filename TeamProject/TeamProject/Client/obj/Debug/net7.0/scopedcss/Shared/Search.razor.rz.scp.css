@@ -1,0 +1,22 @@
+.search-image[b-crohywld2k] {
+    right: 0px;
+    padding: 5px;
+    height: 2rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+    .search-image:hover[b-crohywld2k],
+    .search-image:active[b-crohywld2k] {
+        transform: scale(1.1);
+    }
+
+.search-container[b-crohywld2k] {
+    display: flex;
+    align-items: center;
+}
+
+
+.search-label[b-crohywld2k] {
+    display: flex;
+    align-items: center;
+}

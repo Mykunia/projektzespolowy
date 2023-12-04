@@ -1,0 +1,48 @@
+﻿.container[b-71d9j000t5] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.image-wrapper[b-71d9j000t5] {
+    flex: 0 0 100px;
+    margin-right: 20px;
+}
+
+.image[b-71d9j000t5] {
+    width: 100%;
+    height: auto;
+}
+
+.details[b-71d9j000t5] {
+    flex: 1;
+}
+
+.order-price[b-71d9j000t5] {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4b0082;
+}
+
+h4[b-71d9j000t5] {
+    margin: 0;
+    color: #333;
+}
+
+span[b-71d9j000t5] {
+    color: #666;
+}
+
+a[b-71d9j000t5] {
+    color: #4b0082;
+    text-decoration: none;
+}
+
+    a:hover[b-71d9j000t5] {
+        text-decoration: underline;
+    }

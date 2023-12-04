@@ -1,0 +1,33 @@
+version: '3.4'
+
+networks:
+  teamprojectNetwork:
+
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - 8002:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Password123
+    networks:
+      - teamprojectNetwork
+
+
+  teamproject.server:
+    image: ${DOCKER_REGISTRY-}teamprojectserver
+    build:
+        context: .
+        dockerfile: TeamProject/Server/Dockerfile
+    ports:
+      - 8001:443
+    depends_on:
+      - db
+    environment:
+      - DB_HOST=db
+      - DB_NAME=TeamProjectApp
+      - DB_USER=sa
+      - DB_SA_PASSWORD=Password123
+    networks:
+      - teamprojectNetwork

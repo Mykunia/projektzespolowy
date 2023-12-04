@@ -1,8 +1,79 @@
-﻿.row {
-    display: flex;
-    padding: 6px;
+﻿h3 {
+    color: #5c245c; /* Dark purple for heading */
+    padding-bottom: 2rem;
 }
+
+.btn-primary {
+    background-color: #6c74a7;
+    border-color: #6c74a7;
+    color: #fff;
+}
+
+    .btn-primary:hover {
+        background-color: #444655;
+        border-color: #444655;
+    }
+
+.product-type-btn {
+    margin-top: 10px;
+    right: 0px;
+    transition: transform 0.3s ease-in-out;
+}
+
+    .product-type-btn:hover {
+        transform: scale(1.1);
+    }
+
+.btn-primary {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.float-end {
+    float: right;
+}
+
+.btn-danger {
+    background-color: #a6a9cd; /* Light purple for danger button */
+    border-color: #a6a9cd;
+    color: #fff; /* White text */
+}
+
+    .btn-danger:hover {
+        background-color: #6c74a7; /* Darker purple on hover */
+        border-color: #6c74a7;
+    }
+
+.upload-image,
+.edit-image,
+.cancel-image {
+    height: 1rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #a6a9cd; /* Light purple border */
+    background-color: #fff; /* White background */
+}
+
+    .row:last-child {
+        border-bottom: none; /* Remove bottom border for the last row */
+    }
 
 .col {
     flex: 1;
+}
+
+.form-control {
+    width: 100%;
+    border: 1px solid #a6a9cd; /* Light purple border */
+    border-radius: 4px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.float-end {
+    float: right; /* Align button to the right */
 }

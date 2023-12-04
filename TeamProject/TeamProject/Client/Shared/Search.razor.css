@@ -1,0 +1,22 @@
+﻿.search-image {
+    right: 0px;
+    padding: 5px;
+    height: 2rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+    .search-image:hover,
+    .search-image:active {
+        transform: scale(1.1);
+    }
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.search-label {
+    display: flex;
+    align-items: center;
+}

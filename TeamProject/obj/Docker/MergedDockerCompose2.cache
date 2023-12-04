@@ -1,0 +1,59 @@
+name: dockercompose7034837744173861467
+services:
+  db:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Password123
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    networks:
+      teamprojectNetwork: null
+    ports:
+      - mode: ingress
+        target: 1433
+        published: "8002"
+        protocol: tcp
+  teamproject.server:
+    build:
+      context: C:\Users\kamil\Source\Repos\projektzespolowyDocker\TeamProject
+      dockerfile: TeamProject/Server/Dockerfile
+    depends_on:
+      db:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DB_HOST: db
+      DB_NAME: TeamProjectApp
+      DB_SA_PASSWORD: Password123
+      DB_USER: sa
+    image: teamprojectserver
+    networks:
+      teamprojectNetwork: null
+    ports:
+      - mode: ingress
+        target: 80
+        protocol: tcp
+      - mode: ingress
+        target: 443
+        protocol: tcp
+      - mode: ingress
+        target: 443
+        published: "8001"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\kamil\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\kamil\AppData\Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  teamprojectNetwork:
+    name: dockercompose7034837744173861467_teamprojectNetwork
