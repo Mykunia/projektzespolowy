@@ -3417,11 +3417,27 @@
         },
         "Patterns": null
       },
+      "book.png": {
+        "Children": null,
+        "Asset": {
+          "ContentRootIndex": 3,
+          "SubPath": "book.png"
+        },
+        "Patterns": null
+      },
       "cancel.png": {
         "Children": null,
         "Asset": {
           "ContentRootIndex": 3,
           "SubPath": "cancel.png"
+        },
+        "Patterns": null
+      },
+      "cart.png": {
+        "Children": null,
+        "Asset": {
+          "ContentRootIndex": 3,
+          "SubPath": "cart.png"
         },
         "Patterns": null
       },
@@ -3594,6 +3610,14 @@
         "Asset": {
           "ContentRootIndex": 3,
           "SubPath": "pencil.png"
+        },
+        "Patterns": null
+      },
+      "search.png": {
+        "Children": null,
+        "Asset": {
+          "ContentRootIndex": 3,
+          "SubPath": "search.png"
         },
         "Patterns": null
       },

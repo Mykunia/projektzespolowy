@@ -13,24 +13,26 @@ using TeamProject.Server.Services.ProductService;
 using TeamProject.Server.Services.ProductTypeService;
 
 var builder = WebApplication.CreateBuilder(args);
+var isRunningInDocker = !string.IsNullOrEmpty(Environment.GetEnvironmentVariable("DOTNET_RUNNING_IN_CONTAINER"));
 
-// Add services to the container.
 
-//DbConntection
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+if (isRunningInDocker)
+{
+    var server = Environment.GetEnvironmentVariable("DB_HOST");
+    var user = Environment.GetEnvironmentVariable("DB_USER");
+    var database = Environment.GetEnvironmentVariable("DB_NAME");
+    var password = Environment.GetEnvironmentVariable("DB_SA_PASSWORD");
 
-////DbConntection
-//var server = Environment.GetEnvironmentVariable("DB_HOST");
-//var user = Environment.GetEnvironmentVariable("DB_USER");
-//var database = Environment.GetEnvironmentVariable("DB_NAME");
-//var password = Environment.GetEnvironmentVariable("DB_SA_PASSWORD");
+    var connectionString = $"Server={server};Database={database};User Id={user};Password={password};TrustServerCertificate=True;";
 
-//// Create the connection string
-//var connectionString = $"Server={server};Database={database};User Id={user};Password={password};TrustServerCertificate=True;";
-
-//builder.Services.AddDbContext<ApplicationDbContext>(options =>
-//    options.UseSqlServer(connectionString));
+    builder.Services.AddDbContext<ApplicationDbContext>(options =>
+        options.UseSqlServer(connectionString));
+}
+else
+{
+    builder.Services.AddDbContext<ApplicationDbContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+}
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();

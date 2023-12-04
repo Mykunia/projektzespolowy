@@ -55,7 +55,7 @@ else
                 </h4>
             }
             <button class="btn btn-primary" @onclick="AddToCart">
-                <i class="oi oi-cart"></i>&nbsp;&nbsp;&nbsp;Add to Cart
+                <i class="oi oi-cart"></i>Add to Cart
             </button>
         </div>
     </div>
@@ -68,13 +68,13 @@ else
     private int currentTypeId = 1;
 
     [Parameter]
-    public int ProductId { get; set; }
+    public int Id { get; set; }
 
     protected override async Task OnParametersSetAsync()
     {
         message = "Loading product, please wait";
 
-        var result = await ProductService.GetProduct(ProductId);
+        var result = await ProductService.GetProduct(Id);
         if (!result.Success)
         {
             message = result.Message;

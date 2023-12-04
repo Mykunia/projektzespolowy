@@ -1,2 +1,81 @@
-body[b-mhuaotf2z8] {
+/* Styles for Shopping Cart Razor Page */
+
+h3[b-mhuaotf2z8] {
+    margin: 15px 0;
+    color: #5c245c;
 }
+
+.container[b-mhuaotf2z8] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.image-wrapper[b-mhuaotf2z8] {
+    flex: 0 0 30%;
+}
+
+.image[b-mhuaotf2z8] {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.name[b-mhuaotf2z8] {
+    flex: 0 0 50%;
+    padding: 0 10px;
+}
+
+.input-quantity[b-mhuaotf2z8] {
+    width: 50px;
+    margin-top: 5px;
+}
+
+.btn-delete[b-mhuaotf2z8] {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.cart-product-price[b-mhuaotf2z8] {
+    flex: 0 0 20%;
+    text-align: right;
+}
+
+    .cart-product-price:last-child[b-mhuaotf2z8] {
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+.float-end[b-mhuaotf2z8] {
+    float: right;
+}
+
+.btn[b-mhuaotf2z8] {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.alert-success[b-mhuaotf2z8] {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    align-content: end;
+    margin: 5px 0px;
+}
+
+/* Styles for Delivery Address */
+h5[b-mhuaotf2z8] {
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Additional styles can be added based on your design preferences */

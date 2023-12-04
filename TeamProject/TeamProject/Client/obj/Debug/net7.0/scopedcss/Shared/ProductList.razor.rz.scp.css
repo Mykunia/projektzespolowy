@@ -1,70 +1,67 @@
-/* Style dla listy produktów */
-ul[b-3jczcn1ckd] {
-    list-style: none;
-    padding: 0;
+.container[b-3jczcn1ckd] {
     display: flex;
     flex-wrap: wrap;
 }
 
-/* Style dla pojedynczego produktu */
-li[b-3jczcn1ckd] {
-    width: calc(33.33% - 20px); /* 33.33% szerokości z odstępem 20px między produktami */
+.product-tiles[b-3jczcn1ckd] {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.product-tile[b-3jczcn1ckd] {
+    width: calc(33.33% - 10px);
     margin-bottom: 20px;
     padding: 10px;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Style dla obrazka produktu */
-img[b-3jczcn1ckd] {
+.product-image[b-3jczcn1ckd] {
     max-width: 100%;
     height: auto;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
 
-/* Style dla opisu produktu */
-div[b-3jczcn1ckd] {
+.product-details[b-3jczcn1ckd] {
     margin-top: 10px;
+    text-align: center;
 }
 
-/* Style dla linków do produktów */
-a[b-3jczcn1ckd] {
-    text-decoration: none;
-    color: #333;
-}
+    .product-details a[b-3jczcn1ckd] {
+        text-decoration: none;
+        color: #333;
+    }
 
-/* Style dla tytułu produktu */
-h4[b-3jczcn1ckd] {
+.product-name[b-3jczcn1ckd] {
     margin: 0;
     color: #333;
 }
 
-/* Style dla opisu produktu */
-p[b-3jczcn1ckd] {
+.product-description[b-3jczcn1ckd] {
     margin: 5px 0;
     color: #555;
 }
 
-/* Style dla ceny produktu */
-h5[b-3jczcn1ckd] {
+.product-price[b-3jczcn1ckd] {
     color: #5C245C;
     margin: 0;
 }
 
-/* Style dla paginacji */
 .page-selection[b-3jczcn1ckd] {
     margin-right: 5px;
 }
 
-/* Style dla aktualnie wybranej strony w paginacji */
 .btn-info[b-3jczcn1ckd] {
     background-color: #5C245C;
     color: #fff;
 }
 
-/* Style dla przycisków paginacji */
 .btn-outline-info[b-3jczcn1ckd] {
     background-color: #fff;
     color: #5C245C;

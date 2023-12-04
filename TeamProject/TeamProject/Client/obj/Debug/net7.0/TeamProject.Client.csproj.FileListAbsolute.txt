@@ -880,3 +880,4 @@ C:\Users\kamil\source\repos\projektzespolowyDocker\TeamProject\TeamProject\Clien
 C:\Users\kamil\source\repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\build-gz\ydnaKJIS.gz
 C:\Users\kamil\source\repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\scopedcss\Shared\CartCounter.razor.rz.scp.css
 C:\Users\kamil\source\repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\scopedcss\Shared\Search.razor.rz.scp.css
+C:\Users\kamil\source\repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\scopedcss\Shared\AddressForm.razor.rz.scp.css

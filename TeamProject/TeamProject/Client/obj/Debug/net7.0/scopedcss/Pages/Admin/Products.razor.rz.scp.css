@@ -13,6 +13,20 @@ h3[b-8muyrxu8bw] {
         border-color: #444655;
     }
 
+.product-btn[b-8muyrxu8bw] {
+    margin-top: 10px;
+    right: 0px;
+    transition: transform 0.3s ease-in-out;
+}
+
+    .product-btn:hover[b-8muyrxu8bw] {
+        transform: scale(1.1);
+    }
+
+.btn-primary[b-8muyrxu8bw] {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .float-end[b-8muyrxu8bw] {
     float: right;
 }
@@ -23,7 +37,7 @@ h3[b-8muyrxu8bw] {
 }
 
     .table th[b-8muyrxu8bw], .table td[b-8muyrxu8bw] {
-        text-align: center;
+        text-align: left;
         vertical-align: middle;
     }
 

@@ -1,70 +1,67 @@
-﻿/* Style dla listy produktów */
-ul {
-    list-style: none;
-    padding: 0;
+﻿.container {
     display: flex;
     flex-wrap: wrap;
 }
 
-/* Style dla pojedynczego produktu */
-li {
-    width: calc(33.33% - 20px); /* 33.33% szerokości z odstępem 20px między produktami */
+.product-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.product-tile {
+    width: calc(33.33% - 10px);
     margin-bottom: 20px;
     padding: 10px;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Style dla obrazka produktu */
-img {
+.product-image {
     max-width: 100%;
     height: auto;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
 
-/* Style dla opisu produktu */
-div {
+.product-details {
     margin-top: 10px;
+    text-align: center;
 }
 
-/* Style dla linków do produktów */
-a {
-    text-decoration: none;
-    color: #333;
-}
+    .product-details a {
+        text-decoration: none;
+        color: #333;
+    }
 
-/* Style dla tytułu produktu */
-h4 {
+.product-name {
     margin: 0;
     color: #333;
 }
 
-/* Style dla opisu produktu */
-p {
+.product-description {
     margin: 5px 0;
     color: #555;
 }
 
-/* Style dla ceny produktu */
-h5 {
+.product-price {
     color: #5C245C;
     margin: 0;
 }
 
-/* Style dla paginacji */
 .page-selection {
     margin-right: 5px;
 }
 
-/* Style dla aktualnie wybranej strony w paginacji */
 .btn-info {
     background-color: #5C245C;
     color: #fff;
 }
 
-/* Style dla przycisków paginacji */
 .btn-outline-info {
     background-color: #fff;
     color: #5C245C;

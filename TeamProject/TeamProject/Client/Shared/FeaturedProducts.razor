@@ -9,6 +9,7 @@
 else
 {
     <div class="container">
+        <div class="product-tiles">
         @foreach (var product in ProductService.Products)
         {
             @if (product.Featured)
@@ -26,6 +27,7 @@ else
                             }
                         </a>
                     </div>
+                    <div class="product-details">
                     <h4><a href="product/@product.Id">@product.Name</a></h4>
                     @if (product.Variants != null && product.Variants.Count > 0)
                     {
@@ -33,9 +35,11 @@ else
                             $@product.Variants[0].Price
                         </h5>
                     }
+                    </div>
                 </div>
             }
         }
+        </div>
     </div>
 }
 

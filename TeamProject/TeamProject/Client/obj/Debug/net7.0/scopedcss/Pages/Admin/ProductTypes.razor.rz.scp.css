@@ -14,6 +14,20 @@ h3[b-5jp1vu3jjv] {
         border-color: #444655;
     }
 
+.product-type-btn[b-5jp1vu3jjv] {
+    margin-top: 10px;
+    right: 0px;
+    transition: transform 0.3s ease-in-out;
+}
+
+    .product-type-btn:hover[b-5jp1vu3jjv] {
+        transform: scale(1.1);
+    }
+
+.btn-primary[b-5jp1vu3jjv] {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .float-end[b-5jp1vu3jjv] {
     float: right;
 }

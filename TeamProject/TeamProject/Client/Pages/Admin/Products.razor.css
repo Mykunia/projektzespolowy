@@ -13,6 +13,20 @@
         border-color: #444655;
     }
 
+.product-btn {
+    margin-top: 10px;
+    right: 0px;
+    transition: transform 0.3s ease-in-out;
+}
+
+    .product-btn:hover {
+        transform: scale(1.1);
+    }
+
+.btn-primary {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .float-end {
     float: right;
 }
@@ -23,7 +37,7 @@
 }
 
     .table th, .table td {
-        text-align: center;
+        text-align: left;
         vertical-align: middle;
     }
 
