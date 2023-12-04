@@ -22,14 +22,14 @@
 }
 
 .user-image {
-    height: 2.3rem;
-    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+    padding: 5px;
+    height: 3.5rem;
+    transition: transform 0.3s ease-in-out;
 }
 
     .user-image:hover,
     .user-image:active {
         transform: scale(1.1);
-        filter: opacity(85%);
     }
 
 /* Menu item styles */

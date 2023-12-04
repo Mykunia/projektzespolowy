@@ -1,5 +1,6 @@
 ﻿h3 {
     color: #5c245c; /* Dark purple for heading */
+    padding-bottom: 2rem;
 }
 
 .btn-primary {
@@ -12,6 +13,10 @@
         background-color: #444655;
         border-color: #444655;
     }
+
+.float-end {
+    float: right;
+}
 
 .btn-danger {
     background-color: #a6a9cd; /* Light purple for danger button */

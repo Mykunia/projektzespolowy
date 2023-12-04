@@ -1,2 +1,32 @@
-body[b-shn4uqzdd9] {
+.container[b-shn4uqzdd9] {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-tile[b-shn4uqzdd9] {
+    width: calc(33.33% - 20px);
+    margin: 0 10px 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.tile-image[b-shn4uqzdd9] {
+    text-align: center;
+}
+
+    .tile-image img[b-shn4uqzdd9] {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+h4[b-shn4uqzdd9], h5[b-shn4uqzdd9] {
+    margin: 0;
+}
+
+.price[b-shn4uqzdd9] {
+    color: #5C245C;
 }

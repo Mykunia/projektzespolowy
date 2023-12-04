@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kamil\\Source\\Repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj": {}
+    "C:\\Users\\kamil\\source\\repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kamil\\Source\\Repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj": {
+    "C:\\Users\\kamil\\source\\repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj",
+        "projectUniqueName": "C:\\Users\\kamil\\source\\repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj",
         "projectName": "TeamProject.Client",
-        "projectPath": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj",
+        "projectPath": "C:\\Users\\kamil\\source\\repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj",
         "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Client\\obj\\",
+        "outputPath": "C:\\Users\\kamil\\source\\repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\kamil\\Source\\Repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj": {
-                "projectPath": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj"
+              "C:\\Users\\kamil\\source\\repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj": {
+                "projectPath": "C:\\Users\\kamil\\source\\repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj"
               }
             }
           }
@@ -101,14 +101,14 @@
         }
       }
     },
-    "C:\\Users\\kamil\\Source\\Repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj": {
+    "C:\\Users\\kamil\\source\\repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\kamil\\source\\repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj",
         "projectName": "TeamProject.Shared",
-        "projectPath": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj",
+        "projectPath": "C:\\Users\\kamil\\source\\repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Shared\\TeamProject.Shared.csproj",
         "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\kamil\\source\\repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",

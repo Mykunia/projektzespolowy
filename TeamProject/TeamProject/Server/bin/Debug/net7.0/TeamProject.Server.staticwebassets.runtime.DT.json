@@ -2013,14 +2013,6 @@
             },
             "Patterns": null
           },
-          "TeamProject.Shared.pdb.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 1,
-              "SubPath": "_framework/TeamProject.Shared.pdb.gz"
-            },
-            "Patterns": null
-          },
           "System.Text.Encoding.Extensions.dll.gz": {
             "Children": null,
             "Asset": {
@@ -2205,14 +2197,6 @@
             },
             "Patterns": null
           },
-          "TeamProject.Shared.dll.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 1,
-              "SubPath": "_framework/TeamProject.Shared.dll.gz"
-            },
-            "Patterns": null
-          },
           "System.Linq.Parallel.dll.gz": {
             "Children": null,
             "Asset": {
@@ -2282,6 +2266,14 @@
             "Asset": {
               "ContentRootIndex": 1,
               "SubPath": "_framework/System.Diagnostics.TraceSource.dll.gz"
+            },
+            "Patterns": null
+          },
+          "TeamProject.Shared.dll.gz": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 1,
+              "SubPath": "_framework/TeamProject.Shared.dll.gz"
             },
             "Patterns": null
           },
@@ -2781,14 +2773,6 @@
             },
             "Patterns": null
           },
-          "TeamProject.Client.dll.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 1,
-              "SubPath": "_framework/TeamProject.Client.dll.gz"
-            },
-            "Patterns": null
-          },
           "System.Text.Encoding.CodePages.dll.gz": {
             "Children": null,
             "Asset": {
@@ -2906,14 +2890,6 @@
             "Asset": {
               "ContentRootIndex": 1,
               "SubPath": "_framework/Microsoft.Extensions.Configuration.dll.gz"
-            },
-            "Patterns": null
-          },
-          "TeamProject.Client.pdb.gz": {
-            "Children": null,
-            "Asset": {
-              "ContentRootIndex": 1,
-              "SubPath": "_framework/TeamProject.Client.pdb.gz"
             },
             "Patterns": null
           },
@@ -3090,6 +3066,14 @@
             "Asset": {
               "ContentRootIndex": 1,
               "SubPath": "_framework/System.ComponentModel.EventBasedAsync.dll.gz"
+            },
+            "Patterns": null
+          },
+          "TeamProject.Shared.pdb.gz": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 1,
+              "SubPath": "_framework/TeamProject.Shared.pdb.gz"
             },
             "Patterns": null
           },
@@ -3317,6 +3301,14 @@
             },
             "Patterns": null
           },
+          "TeamProject.Client.pdb.gz": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 1,
+              "SubPath": "_framework/TeamProject.Client.pdb.gz"
+            },
+            "Patterns": null
+          },
           "icudt_no_CJK.dat.gz": {
             "Children": null,
             "Asset": {
@@ -3354,6 +3346,14 @@
             "Asset": {
               "ContentRootIndex": 1,
               "SubPath": "_framework/System.Text.RegularExpressions.dll.gz"
+            },
+            "Patterns": null
+          },
+          "TeamProject.Client.dll.gz": {
+            "Children": null,
+            "Asset": {
+              "ContentRootIndex": 1,
+              "SubPath": "_framework/TeamProject.Client.dll.gz"
             },
             "Patterns": null
           },

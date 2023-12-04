@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LlztHxT86+/rWBa5x2gmrxVByha1Ae6xRYK0zhHBVY7+dOeqK5ZUaACJE1HzhvZXWQeV5fq5uvy14y6jCqd0Yg==",
+  "dgSpecHash": "+Pa0v5tx/pkrCkGfrdVasfSywjcmeG7LA8U5vygHFL1Qu+sQt+d7sZZ1CeO6NIjzVI2eH0tx/KCkPYyK0fqWLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kamil\\Source\\Repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj",
+  "projectFilePath": "C:\\Users\\kamil\\source\\repos\\projektzespolowyDocker\\TeamProject\\TeamProject\\Client\\TeamProject.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kamil\\.nuget\\packages\\blazored.localstorage\\4.4.0\\blazored.localstorage.4.4.0.nupkg.sha512",
     "C:\\Users\\kamil\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.13\\microsoft.aspnetcore.authorization.7.0.13.nupkg.sha512",

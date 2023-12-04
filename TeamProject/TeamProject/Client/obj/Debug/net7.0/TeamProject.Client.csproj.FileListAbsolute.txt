@@ -840,10 +840,6 @@ C:\Users\kamil\Source\Repos\projektzespolowyDocker\TeamProject\TeamProject\Clien
 C:\Users\kamil\Source\Repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\build-gz\HutcvruC.gz
 C:\Users\kamil\Source\Repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\build-gz\c6B4Z5m5.gz
 C:\Users\kamil\Source\Repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\build-gz\YEuIHT9g.gz
-C:\Users\kamil\Source\Repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\build-gz\ClNRh2Fo.gz
-C:\Users\kamil\Source\Repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\build-gz\7ntXWivz.gz
-C:\Users\kamil\Source\Repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\build-gz\P+iuy+qN.gz
-C:\Users\kamil\Source\Repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\build-gz\RYY83tqs.gz
 C:\Users\kamil\Source\Repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\build-gz\Ymf4+ZRI.gz
 C:\Users\kamil\Source\Repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\blazor.boot.json
 C:\Users\kamil\Source\Repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\staticwebassets\msbuild.TeamProject.Client.Microsoft.AspNetCore.StaticWebAssets.props
@@ -878,3 +874,9 @@ C:\Users\kamil\Source\Repos\projektzespolowyDocker\TeamProject\TeamProject\Clien
 C:\Users\kamil\Source\Repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\refint\TeamProject.Client.dll
 C:\Users\kamil\Source\Repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\TeamProject.Client.pdb
 C:\Users\kamil\Source\Repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\ref\TeamProject.Client.dll
+C:\Users\kamil\source\repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\build-gz\DO8nJ2vo.gz
+C:\Users\kamil\source\repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\build-gz\VsmgxWHy.gz
+C:\Users\kamil\source\repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\build-gz\YVpaCStf.gz
+C:\Users\kamil\source\repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\build-gz\ydnaKJIS.gz
+C:\Users\kamil\source\repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\scopedcss\Shared\CartCounter.razor.rz.scp.css
+C:\Users\kamil\source\repos\projektzespolowyDocker\TeamProject\TeamProject\Client\obj\Debug\net7.0\scopedcss\Shared\Search.razor.rz.scp.css

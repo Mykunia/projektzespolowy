@@ -1,2 +1,32 @@
-﻿body {
+﻿.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-tile {
+    width: calc(33.33% - 20px);
+    margin: 0 10px 20px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.tile-image {
+    text-align: center;
+}
+
+    .tile-image img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+
+h4, h5 {
+    margin: 0;
+}
+
+.price {
+    color: #5C245C;
 }

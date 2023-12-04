@@ -14,7 +14,7 @@ services:
       - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
       - NUGET_FALLBACK_PACKAGES=
     volumes:
-      - C:\Users\kamil\Source\Repos\projektzespolowyDocker\TeamProject\TeamProject\Server:/app
+      - C:\Users\kamil\source\repos\projektzespolowyDocker\TeamProject\TeamProject\Server:/app
       - C:\Users\kamil\Source\Repos\projektzespolowyDocker\TeamProject:/src
       - C:\Users\kamil\vsdbg\vs2017u5:/remote_debugger:rw
       - C:\Users\kamil\.nuget\packages\:/.nuget/packages:ro

@@ -205,15 +205,15 @@
       "mscorlib.dll": "sha256-8OmdVHzoN7xteY5ehp0L8R17I9QxFkH2lUVHFuslE0s=",
       "netstandard.dll": "sha256-urq+e2ZQXxmOWMRxTR92529HnUVu6+kyVnfF6SoLad8=",
       "System.Private.CoreLib.dll": "sha256-ixnF\/wVKLHZM1N0lfJufpZ41EC2LvvyiSqdW43h3Xew=",
-      "TeamProject.Shared.dll": "sha256-R3jSUP19QItnDwyGU\/QctuNozx2lOoHD7HqWGJxP03M=",
-      "TeamProject.Client.dll": "sha256-8f\/MrN1EJC\/9CKFesawV20\/TVU9IzXb9z8Y0lUPrU9E="
+      "TeamProject.Shared.dll": "sha256-fA9VG+f6YB3\/55TW8iu8bTN9bZxnFnm2ohX0opMp60g=",
+      "TeamProject.Client.dll": "sha256-armjOc3t9yFCKgPLz8s3GAu7Nhp8cB3j2LeLxO2KmrE="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "TeamProject.Shared.pdb": "sha256-mrjA57WbwpujB8tWR+aDMrW1W0A3GZ4w3jUMFF+7Zbk=",
-      "TeamProject.Client.pdb": "sha256-SPE7nDY8maDXEVUSEzrjUtjVDLNj8+hv57gnYOiacKE="
+      "TeamProject.Shared.pdb": "sha256-zQI95Jyvb7g+xms7hZdxLpk7aKxPUubZsgg2gB+DoEA=",
+      "TeamProject.Client.pdb": "sha256-g4US1B25Y9gHjjxotfM8ZddEB1Z7mVqvBvDLowqvTrM="
     },
     "runtime": {
       "dotnet.7.0.12.nd6r365apv.js": "sha256-cPJgWy8SjMaYFeimGkYy23ls+rDZVmoC\/eMoHpqRc+4=",

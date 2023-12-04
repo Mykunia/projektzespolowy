@@ -1,2 +1,14 @@
-body[b-3ki0fdabgh] {
+.book-image[b-3ki0fdabgh] {
+    padding: 5px;
+    height: 3.5rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.book-image:hover[b-3ki0fdabgh],
+.book-image:active[b-3ki0fdabgh] {
+    transform: scale(1.1);
+}
+
+h3[b-3ki0fdabgh]{
+    color: white;
 }

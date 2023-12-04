@@ -13,16 +13,16 @@ else
         {
             @if (product.Featured)
             {
-                <div class="">
-                    <div>
+                <div class="product-tile">
+                    <div class="tile-image">
                         <a href="product/@product.Id">
                             @if (!string.IsNullOrEmpty(product.PictureUrl))
                             {
-                                <img src="@product.PictureUrl">
+                                <img src="@product.PictureUrl" alt="@product.Name">
                             }
                             else if (product.Pictures.Count > 0)
                             {
-                                <img src="@product.Pictures[0].Data" />
+                                <img src="@product.Pictures[0].Data" alt="@product.Name">
                             }
                         </a>
                     </div>
